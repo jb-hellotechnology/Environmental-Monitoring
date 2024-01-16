@@ -7,17 +7,12 @@ A simple device to monitor temperature, humidity and pressure. Sends data to a p
 
 ## Wiring
 Wiring Pimoroni BME280 module to W5500 Pico:
-| BME | W5500 |
+| BME Module | W5500 Board |
 |-----|-------|
 | GND |   38  |
 | 2-5v|   36  |
 | SDA |    1  |
 | SCL |    2  |
-
-- BME GND -> 38
-- BME 2 - 5v -> 36
-- BME SDA -> 1
-- BME SCL -> 2
 
 ## MicroPython Packages
 - https://pypi.org/project/network/
