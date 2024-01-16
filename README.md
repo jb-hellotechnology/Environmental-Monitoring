@@ -8,9 +8,9 @@ Wiring Pimoroni BME280 module to W5500 Pico:
 - BME SCL -> 2
 
 ## Packages
-https://pypi.org/project/network/
-https://pypi.org/project/smbus2/
-https://github.com/robert-hh/BME280/blob/master/bme280_float.py
+- https://pypi.org/project/network/
+- https://pypi.org/project/smbus2/
+- https://github.com/robert-hh/BME280/blob/master/bme280_float.py
 
 ## Run
 Copy main.py to W5500 Pico. Please update the following settings:
