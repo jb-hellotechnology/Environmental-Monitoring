@@ -1,6 +1,10 @@
 # Environmental Monitoring with WIZNET W5500-EVB-Pico and BME280
 A simple device to monitor temperature, humidity and pressure. Sends data to a publically accessible URL every 30 minutes or so.
 
+## Hardware
+- https://www.wiznet.io/product-item/w5500-evb-pico/
+- https://shop.pimoroni.com/products/bme280-breakout?variant=29420960677971
+
 ## Wiring
 Wiring Pimoroni BME280 module to W5500 Pico:
 - BME GND -> 38
@@ -8,7 +12,7 @@ Wiring Pimoroni BME280 module to W5500 Pico:
 - BME SDA -> 1
 - BME SCL -> 2
 
-## Packages
+## MicroPython Packages
 - https://pypi.org/project/network/
 - https://pypi.org/project/smbus2/
 - https://github.com/robert-hh/BME280/blob/master/bme280_float.py
